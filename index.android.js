@@ -27,12 +27,10 @@ export default class imageTest extends Component {
 					<Image source={require('./images/test.png')} style={styles.image} />
 					<Text>GIF</Text>
 					<Image source={require('./images/test.gif')} style={styles.image} />
-					{/* <Text>PSD</Text>
-					<Image source={require('./images/test.psd')} style={styles.image} /> */}
-					{/* <Text>TIFF</Text>
-					<Image source={require('./images/test.tif')} style={styles.image} /> */}
-					{/* <Text>WEBP</Text>
-					<Image source={require('./images/test.webp')} style={styles.image} /> */}
+					<Text>PSD</Text>
+					<Image source={require('./images/test.psd')} style={styles.image} />
+					<Text>WEBP</Text>
+					<Image source={require('./images/test.webp')} style={styles.image} />
 				</ScrollView>
 			</View>
 		);
@@ -50,8 +48,8 @@ const styles = StyleSheet.create({
     marginTop: 15
   },
 	image: {
-		width: 150,
-		height: 100
+    width: 100,
+		height: 75
 	}
 });
 
