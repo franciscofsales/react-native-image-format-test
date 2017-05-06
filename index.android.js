@@ -25,6 +25,8 @@ export default class imageTest extends Component {
 					<Image source={require('./images/test.jpeg')} style={styles.image} />
 					<Text>PNG</Text>
 					<Image source={require('./images/test.png')} style={styles.image} />
+					<Text>BMP</Text>
+					<Image source={require('./images/test.bmp')} style={styles.image} />
 					<Text>GIF</Text>
 					<Image source={require('./images/test.gif')} style={styles.image} />
 					<Text>PSD</Text>
@@ -48,8 +50,8 @@ const styles = StyleSheet.create({
     marginTop: 15
   },
 	image: {
-    width: 100,
-		height: 75
+    width: 75,
+		height: 50
 	}
 });
 
